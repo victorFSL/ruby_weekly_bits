@@ -3,7 +3,7 @@ arr1 = [  1,2,3 ]
 arr2 = [ 'one', 'two', 'three' ]
 arr3 = [ '1-one', '2-two', '3-three']
 
-#CREDITS TO JORDAN JUDGENS FROM DEVCAMP [ AHHHH!! THE ELEGANCE OF RUBY]
+# CREDITS TO JORDAN JUDGENS FROM DEVCAMP [ AHHHH!! THE ELEGANCE OF RUBY]
 def array_align (arr, *data)
   arr.zip(*data)
 end
